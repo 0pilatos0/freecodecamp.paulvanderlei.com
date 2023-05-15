@@ -206,7 +206,7 @@ d3.json(url).then(function (data) {
     .selectAll("rect")
     .on("mouseover", function (d, i) {
       tooltip
-        .style("opacity", 0.9)
+        .style("opacity", 1)
         .attr("data-year", i.year)
         .html(
           i.year +
